@@ -6,13 +6,13 @@ int main() {
 	const int ROW = 5;
 	const int COL = 5;
 	int arr[ROW][COL]{
-		{1,2,3,4,6},
-		{6,7,8,9,10},
+		{2,4,3,4,7},
+		{6,7,2,9,10},
 		{11,12,0,56,15},
-		{15,14,13,12,11},
-		{10,9,8,7,6}
+		{15,4,13,12,1},
+		{4,9,8,7,6}
 	};
-	int sum = 0;
+	float sum = 0;
 	int MinValue = arr[0][0];
 	int MaxValue = arr[0][0];
 
